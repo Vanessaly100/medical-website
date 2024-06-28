@@ -1,0 +1,1336 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+section,
+footer {
+    /* flex: 0 0 auto; */
+    flex-shrink: 0;
+    flex-shrink: 0;
+}
+
+main {
+    flex-grow: 1;
+    position: relative;
+    z-index: 5;
+}
+
+nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    background:#F2F2F2 ;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 50px;
+    
+}
+nav ul li{
+    display: inline-block;
+    gap: 10px;
+}
+nav ul li a :hover{
+    background:#73A3DE ;
+}
+
+.medicine-center{
+   background-image: url(https://life-cdn.lifepharmacy.com/medical-centre/blogs/01HWYQSRN423Z3NVB9GTPBKF65.png);
+    height: 837px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.app a{
+    color:#73A3DE ;
+}
+.medicine-center .all-med-desc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 44%;
+    height: 50%;
+    padding-top: 30%;
+    padding-left: 80px;
+}
+.medicine-center .all-med-desc h1{
+    color: #3E4A59;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+}
+.medicine-center .all-med-desc p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+    padding: 15px 35px;
+    background:#4C637F;
+    color: #FFFFFF;
+    margin-top: 20px;
+    width: fit-content;
+}
+button a{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+h2{
+    font-size:30px;
+    padding-bottom: 15px;
+}
+h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h4{
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    
+    color: #111111;
+    line-height: 1.6;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+/* ***************** second section************************ */
+
+.three-container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -300px;
+    left: 0;
+    width: 100%;
+    /* border: 1px solid; */
+}
+.twin-container{
+    width: 398px;
+    height: 450px;
+    text-align: center;
+    padding-top: 150px;
+    color: #FFFFFF;
+}
+.para{
+    color: #FFFFFF;
+    line-height: 1.6;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.twin-container-para {
+    width: 300px;
+    margin-inline: auto;
+}
+
+/* ******************after three containers****************** */
+.neu-care{
+    background:#CCD3DB ;
+}
+.car-care{
+    background:#858E99 ;
+}
+.uro-care{
+    background:#555D66 ;
+}
+
+.photoss-icon {
+    width: 80px;
+    height: 80px;
+    color: #FFFFFF;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+/* ***** section two full service******** */
+.full-service .content-one {
+    text-align: center;
+    margin-top: 400px;
+    justify-content: center;
+        align-items: center;
+}
+
+.content-one{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 740px;
+    margin-inline: auto;
+}
+.full-service .content-one p{
+    font-size: 16px;
+    font-family:"Open Sans",
+    sans-serif ;
+}
+.full-service .content-one h2{
+    font-size: 36px;
+    font-family:'Oswald',
+    sans-serif ;
+    font-weight: 300;
+}
+
+.grid-items{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-content: center;
+}
+
+.content-three{
+    grid-row:  span 3 ;
+    
+}
+.content-three img{
+    width:100%;
+}
+.photos-icon{
+    width: 80px;
+    height: 80px;
+    color: #73A3DE;
+}
+
+.two{
+    position: relative;
+}
+.four{
+    position: relative;
+}
+.five{
+    position: relative;
+}
+
+.sans{
+    font-family : "Open Sans",sans-serif;
+    width: 450px;
+}
+.sans h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight:300;
+}
+.sans h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight:400;
+}
+
+.brain{
+    display:flex ;
+    gap: 20px;
+    position: absolute;
+    top: 30%;
+    left: 60px;
+}
+.heart{
+    display:flex ;
+    gap: 20px;
+    position: absolute;
+    top: 30%;
+    left: 60px;
+}
+.first-aid{
+    display:flex ;
+    gap: 20px;
+    position: absolute;
+    top: 30%;
+    left: 60px;
+}
+
+/* ************section three our department********************** */
+.our-department{
+    width: 100%;
+    background: #858E99;
+    margin-top: 70px;
+    padding-block: 50px 30px;
+
+}
+.our-department-desc{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-inline: auto;
+}
+.department{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 120px;
+}
+.six-container{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.six-container p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.heading-two{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.our-department-desc{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+}
+.our-department-desc p{
+    color: #FFFFFF;
+    line-height: 1.6;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+}
+
+.fa-ear-listen{
+    font-size:80px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    margin-top: -25px;
+}
+
+.photoss-icon-brain{
+    width: 70px;
+    height: 70px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.photoss-icon-brains{
+    margin-top: -10px;
+}
+.photoss-icon{
+    margin-bottom: 10px;
+}
+
+
+/* *****************fourth section*********************** */
+
+.careofheart-container{
+    display: flex;
+    gap: 58px;
+    margin: 50px auto;
+    padding-inline: 70px;
+}
+.care-item{
+    width: 50%;
+    height: 400px;
+}
+.care-item img{
+    width:100%;
+    height:100%;
+}
+.care-item-desc {
+    width: 503px;
+    padding-top: 3px;
+}
+.care-item-desc{
+    padding-top: 70px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+.care-item-desc p{
+    font-size: 16px;
+    
+}
+
+
+/* **********firth-section************** */
+.firth-section{
+    background: #E0E5EB;
+    height: 800px;
+    position: relative;
+}
+
+.we-care-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.we-care-desc {
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-inline: auto;
+}
+
+.care-item-container{
+    width: 370px;
+    height: 445px;
+    background: #FFFFFF;
+    position: relative;
+}
+.we-care-desc{
+    padding-block: 70px;
+    text-align: center;
+}
+.we-care-desc p{
+    font-size: 16px;
+}
+.we-care-desc h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.care-item-container img {
+    width: 100%;
+    height: 250px;
+}
+
+.child-desc{
+    margin-top: 20px;
+    padding-inline: 15px;
+    line-height: 1.6;
+    width: 300px;
+}
+
+.care-item-container button{
+    background: none;
+}
+
+.care-item-container button a{
+    color:#73A3DE ;
+    font-size: 14px;
+    position: absolute;
+    left: 15px;
+    bottom: 3px;
+}
+
+/* ****************six-section******************* */
+
+.six-section{
+    width: 100%;
+    height: 800px;
+    background:#555D66 ;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.global-container-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-inline: auto;
+    padding-bottom: 40px;
+    line-height: 1.6;
+    color: #FFFFFF;
+    width: 500px;
+}
+.global-container-desc h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+.global-container-desc p{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/* ***************** seven section********************* */
+
+.specialist-three-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.specialist-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-inline: auto;
+    padding-block: 60px;
+    width: 500px;
+    margin-inline: auto;
+    text-align: center;
+}
+.specialist-desc h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 400;;
+}
+.specialist-desc p{
+    font-size: 16px;
+}
+.specialist-item h4{
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.specialist-item{
+    width: 300px;
+    height: 550px;
+    position: relative;
+}
+.specialist-item img{
+    width: 100%;
+    height: 450px;
+}
+
+.marry{
+    position: absolute;
+    bottom: 65px;
+    left: 0px;
+    background: #E0E5EB;
+    width: 100%;
+    padding-block: 15px;
+    padding-left: 15px;
+}
+.tom{
+    position: absolute;
+    bottom: 65px;
+    left: 0px;
+    background:#CCD3DB ;
+    width: 100%;
+    padding-block: 15px;
+    padding-left: 15px;
+}
+.linda{
+    position: absolute;
+    bottom:65px;
+    left: 0px;
+    background: #858E99;
+    width: 100%;
+    padding-block: 15px;
+    padding-left: 15px;
+    color: #FFFFFF;
+}
+
+.linda p{
+    color: #FFFFFF;
+}
+
+/* ******************section eight*************************** */
+
+.get-in-touch-container{
+    background:#858E99;
+    width: 100%;
+    height: 630px;
+    text-align: center;
+}
+
+.touch-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-inline: auto;
+    padding-block: 60px;
+    color: #FFFFFF;
+    width: 500px;
+}
+.touch-desc p{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.touch-desc h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+input{
+    height: 45px;
+    width: 750px;
+}
+
+input{
+    background: #555D66;
+    border: none;
+}
+::placeholder{
+    color: #858E99;
+    text-align: left;
+    
+}
+input::-webkit-input-placeholder{
+    text-align: left;
+    font-size: 16px;
+    padding-left: 10px;
+}
+textarea{
+    background:#555D66 ;
+    font-size: 20px;
+    color: grey;
+    padding-left: 10px;
+}
+
+form button{
+    background:#FFFFFF ;
+    color: #111111;
+    font-size: 16px;
+    font-weight: bold;
+}
+form input {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+
+/* *******footer******** */
+
+footer{
+    width: 100%;
+    height: 100px;
+    background:#333333 ;
+    color: #FFFFFF;
+    text-align: center;
+    padding-block: 40px;
+}
+
+footer a{
+    color: #C9E4F9;
+    text-decoration: underline;
+}
+
+
+
+/* ***********************media query**************************** */
+
+@media(max-width:1169px) {
+.twin-container {
+        width: 350px;
+    }
+
+    .care-item-desc {
+        width: 430px;
+    }
+
+.care-item-container {
+    width: 340px;
+}
+
+}
+@media(max-width:1029px) {
+.twin-container {
+        width: 320px;
+    }
+        .twin-container-para {
+            width: 270px;
+            margin-inline: auto;
+        }
+
+    .sans {
+        font-family: "Open Sans", sans-serif;
+        width: 330px;
+    }
+
+    .care-item-desc {
+        width: 382px;
+        padding-top: 30px;
+    }
+
+    .care-item {
+        width: 45%;
+        height: 400px;
+    }
+.care-item-container {
+    width: 310px;
+}
+
+/* **********six-section************** */
+
+.wrapper {
+    width: 400px;
+    height: 500px;
+    margin-inline: auto;
+}
+
+.wrapper img {
+    width: 100%;
+    height: 100%;
+    margin-inline: auto;
+}
+}
+@media(max-width:992px){
+    .twin-container {
+            width: 250px;
+        }
+
+    .six-container {
+        width: 130px;
+        height: 120px;
+        text-align: center;
+        /* border: 1px solid; */
+    }
+
+        /* **********firth-section************** */
+        .care-item-container {
+            width: 235px;
+        }
+    
+        .we-care-desc {
+            width: 350px;
+            margin-inline: auto;
+        }
+    
+        .child-desc {
+            width: 230px;
+            margin-inline: auto;
+        }
+    
+        .care-item-container {
+            height: 470px;
+        }
+}
+
+@media(max-width:936px) {
+.twin-container {
+        width: 280px;
+    }
+
+    .care-item-desc {
+        width: 370px;
+        /* padding-top: 100px; */
+    }
+
+    .care-item {
+        width: 40%;
+        height: 368px;
+    }
+.care-item-container {
+    width: 280px;
+}
+
+/* **********six-section************** */
+
+.wrapper {
+    width: 500px;
+    height: 500px;
+    margin-inline: auto;
+}
+
+.wrapper img {
+    width: 100%;
+    height: 100%;
+    margin-inline: auto;
+}
+
+.specialist-item {
+    width: 250px;
+    height: 550px;
+    position: relative;
+}
+
+
+}
+
+@media(max-width:850px) {
+
+.medicine-center .all-med-desc {
+    width: 44%;
+    padding-top: 50%;
+    padding-left: 40px;
+}
+.twin-container {
+    width: 240px;
+}
+.twin-container-para {
+    width: 250px;
+    margin-inline: auto;
+}
+.twin-container-para p{
+    width: 200px;
+    margin-inline: auto;
+}
+
+
+.photoss-icon {
+    width: 80px;
+    height: 80px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.content-one {
+    width: 750px;
+    margin-left: 10px;
+}
+
+.grid-item .sans {
+    font-family: "Open Sans", sans-serif;
+    width: 250px;
+}
+
+.brain {
+    top: -40px;
+    left: 30px;
+}
+
+.heart {
+    top: 10%;
+    left: 30px;
+}
+
+.first-aid {
+    top: 50px;
+    left: 30px;
+}
+
+.full-service .content-one {
+    margin-top: 400px;
+    padding-bottom: 100px;
+    width: 660px;
+    margin-inline: auto;
+}
+
+.full-service {
+    padding-bottom: 100px;
+}
+
+/* ***********section three our-department********************** */
+
+.department {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    margin-top: 120px;
+    gap: 20px;
+}
+
+.six-container {
+    width: 300px;
+    height: 200px;
+}
+
+.photoss-icon-brains p {
+    padding-top: 30px;
+}
+
+.fa-ear-listen {
+    padding-bottom: 35px;
+}
+
+.our-department-desc p {
+    width: 410px;
+}
+
+/* *****************fourth section*************************** */
+
+.careofheart-container {
+    gap: 65px;
+    margin: 50px auto;
+    padding-inline: 15px;
+}
+
+.care-item {
+    width: 45%;
+    height: 450px;
+}
+
+.care-item-desc {
+    width: 310px;
+    padding-top: 3px;
+}
+
+/* **********firth-section************** */
+.care-item-container {
+    width: 235px;
+}
+
+.we-care-desc {
+    width: 350px;
+    margin-inline: auto;
+}
+
+.child-desc {
+    width: 230px;
+    margin-inline: auto;
+}
+
+.care-item-container {
+    height: 470px;
+}
+
+/* ***************** seven section********************* */
+
+.specialist-desc {
+    width: 350px;
+    margin-inline: auto;
+}
+
+.specialist-item {
+    width: 200px;
+    height: 550px;
+    position: relative;
+}
+
+.marry {
+    padding-block: 25px;
+}
+
+.tom {
+    padding-block: 25px;
+}
+
+.linda {
+    padding-block: 25px;
+}
+
+/* ******************section eight*************************** */
+
+.touch-desc {
+    padding-block: 50px;
+    width: 350px;
+    margin-inline: auto;
+}
+
+input {
+    height: 45px;
+    width: 450px;
+}
+
+form button {
+    background: #FFFFFF;
+    color: #111111;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 450px;
+}
+}
+
+@media(max-width:525px) {
+
+    nav ul li {
+        display: none;
+    }
+
+    .medicine-center .all-med-desc {
+        width: 90%;
+        padding-top: 90%;
+        padding-left: 30px;
+    }
+
+    .medicine-center .all-med-desc p {
+        width: 63%;
+    }
+
+    .medicine-center .all-med-desc h1 {
+        font-size: 48px;
+    }
+
+    /* ******************after three containers****************** */
+
+    .three-container {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        bottom: -400px;
+        height: 0%;
+    }
+
+  .twin-container {
+    width: 370px;
+  }
+.twin-container-para {
+    width: 300px;
+    margin-inline: auto;
+    padding-bottom: 50px;
+}
+.twin-container-para p{
+    width: 300px;
+    margin-inline: auto;
+}
+
+    .full-service .content-one {
+        margin-top: 1150px;
+    }
+
+    .grid-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+    }
+
+    .full-service {
+        height: 1200px;
+    }
+
+    .full-service .content-one {
+        width: 335px;
+        margin-inline: auto;
+    }
+
+    .full-service .content-one h2 {
+        font-size: 24px;
+    }
+
+    .brain {
+        top: -50px;
+        left: 30px;
+    }
+
+    .heart {
+        top: 150px;
+        left: 30px;
+    }
+
+    .first-aid {
+        top: 350px;
+        left: 30px;
+    }
+
+    .grid-items .content-three {
+        order: 4;
+        position: absolute;
+        top: 550px;
+        left: 0px;
+    }
+
+    /* ***********section three our-department***************** */
+
+    .department {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .our-department-desc {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 1px solid red; */
+        margin-inline: auto;
+    }
+    .our-department-desc p{
+        width: 280px;
+    }
+
+    /* *****************fourth section*************************** */
+.careofheart-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 58px;
+    margin: 50px auto;
+    padding-inline: 40px;
+}
+
+.care-item img {
+    width: 100%;
+    height: 100%;
+}
+    .care-item {
+        width: 360px;
+    }
+
+    .care-item-desc {
+        width: 345px;
+        padding-top: 3px;
+    }
+
+    /* **********firth-section************ */
+    .firth-section {
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+
+        .we-care-container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            gap: 18px;
+        }
+
+    .we-care-desc {
+        width: 280px;
+        margin-inline: auto;
+    }
+
+    .care-item-container {
+        width: 360px;
+    }
+
+    .child-desc {
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    /* ********************section six************************ */
+
+    .global-container {
+        width: 300px;
+        margin-inline: auto;
+    }
+
+    .wrapper {
+        width: 300px;
+        height: 500px;
+    }
+
+    .wrapper img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+.global-container-desc {
+    width: 310px;
+}
+
+    /* ***************** seven section********************* */
+
+    .seven-section {
+        padding-bottom: 50px;
+    }
+
+    .specialist-desc {
+        width: 310px;
+        margin-inline: auto;
+    }
+
+    .specialist-three-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .specialist-item {
+        width: 300px;
+        height: 200px;
+        position: relative;
+        height: fit-content;
+    }
+
+    .specialist-item img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .marry {
+        bottom: 0px;
+    }
+
+    .tom {
+        bottom: 0px;
+    }
+
+    .linda {
+        bottom: 0px;
+    }
+
+
+    /* ******************section eight*************************** */
+
+    .touch-desc h2 {
+        font-size: 24px;
+    }
+
+    .touch-desc {
+        width: 305px;
+        margin-inline: auto;
+    }
+
+    input {
+        height: 45px;
+        width: 360px;
+    }
+
+    textarea {
+        width: 360px;
+    }
+
+}
+
+/* *********************************** */
+@media(max-width:375px) {
+    .medicine-center .all-med-desc {
+        width: 100%;
+        padding-top: 100%;
+        padding-left: 20px;
+    }
+
+    /* ******************after three containers************ */
+
+.twin-container {
+    width: 330px;
+}
+
+.content-one p{
+    width: 310px;
+    margin-inline: auto;
+}
+
+.sans {
+    width: 310px;
+}
+.brain {
+    top: -50px;
+    left: 15px;
+    gap: 10px;
+}
+
+.heart {
+    top: 150px;
+    left: 15px;
+    gap: 10px;
+}
+
+.first-aid {
+    top: 350px;
+    left: 15px;
+    gap: 10px;
+}
+
+ /* *****************fourth section*************************** */
+.care-item {
+    width: 340px;
+}
+
+.care-item-desc {
+    width: 340px;
+}
+
+/* **********firth-section************ */
+.care-item-container {
+    width: 330px;
+}
+}
+
+@media(max-width:320px){
+.twin-container {
+        width: 300px;
+    }
+
+
+.content-one h2{
+    width: 310px;
+    margin-inline: auto;
+}
+.content-one p{
+    width: 250px;
+    margin-inline: auto;
+}
+
+.sans p{
+    width: 200px;
+}
+.sans h4{
+    width: 200px;
+}
+
+.brain {
+    top: -50px;
+    left: 5px;
+    gap: 10px;
+}
+
+.heart {
+    top: 150px;
+    left: 5px;
+    gap: 10px;
+}
+
+.first-aid {
+    top: 350px;
+    left: 5px;
+    gap: 10px;
+}
+
+/* *****************fourth section*************************** */
+.care-item {
+    width: 290px;
+}
+
+.care-item-desc {
+    width: 280px;
+}
+
+/* **********firth-section************ */
+
+.care-item-container {
+    width: 280px;
+}
+
+  /* ***************** seven section********************* */
+
+
+.specialist-desc {
+    width: 280px;
+}
+
+
+.specialist-item {
+    width: 280px;
+}
+
+
+.touch-desc {
+    width: 280px;
+    margin-inline: auto;
+}
+
+input {
+    width: 280px;
+}
+
+textarea {
+    width: 280px;
+}
+}
