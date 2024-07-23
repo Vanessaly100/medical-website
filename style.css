@@ -11,7 +11,6 @@ html,body{
     padding: 0px;
 }
 
-
 section,
 footer {
     /* flex: 0 0 auto; */
@@ -29,7 +28,7 @@ nav{
     position: fixed;
     top: 0px;
     left: 0px;
-    z-index: 1000;
+    z-index: 100;
     background:#F2F2F2 ;
     width: 100%;
     height: 80px;
@@ -66,15 +65,15 @@ nav ul li a :hover{
     justify-content: center;
     flex-direction: column;
     width: 44%;
-    height: 50%;
-    padding-top: 30%;
+    /* height: 50%; */
+    /* padding-top: 30%; */
     padding-left: 80px;
 }
 .medicine-center .all-med-desc h1{
     color: #3E4A59;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
-    font-size: 72px;
+    font-size: 11vmin ;
 }
 .medicine-center .all-med-desc p{
     font-size: 16px;
@@ -102,7 +101,7 @@ button a{
 }
 
 h2{
-    font-size:30px;
+    font-size:7vmin;
     padding-bottom: 15px;
 }
 h2{
@@ -111,7 +110,7 @@ h2{
     font-style: normal;
 }
 h4{
-    font-size: 24px;
+    font-size: 5vmin;
     padding-bottom: 15px;
 }
 h4{
@@ -128,24 +127,26 @@ p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
-/* ***************** second section************************ */
+/* ***************** three containers section**************** */
 
-.three-container{
+.three-containers{
+    width: 90%;
+    margin-inline: auto;
+}
+
+.three-container-wrapper{
     display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: -300px;
-    left: 0;
-    width: 100%;
-    /* border: 1px solid; */
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        position: relative;
+        top: -150px;
+        left: 0;
 }
 .twin-container{
-    width: 398px;
-    height: 450px;
+    padding-block: 100px;
+    width: 50%;
     text-align: center;
-    padding-top: 150px;
     color: #FFFFFF;
 }
 .para{
@@ -155,37 +156,36 @@ p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
-
 .twin-container-para {
-    width: 300px;
+    padding: 15px;
     margin-inline: auto;
 }
-
-/* ******************after three containers****************** */
 .neu-care{
     background:#CCD3DB ;
+    height: 450px;
 }
 .car-care{
     background:#858E99 ;
+    height: 450px;
 }
 .uro-care{
     background:#555D66 ;
+    height: 450px;
 }
-
 .photoss-icon {
     width: 80px;
     height: 80px;
     color: #FFFFFF;
     margin-top: -30px;
     margin-bottom: 30px;
+    
 }
 
 /* ***** section two full service******** */
 .full-service .content-one {
     text-align: center;
-    margin-top: 400px;
     justify-content: center;
-        align-items: center;
+    align-items: center;
 }
 
 .content-one{
@@ -194,6 +194,7 @@ p{
     align-items: center;
     width: 740px;
     margin-inline: auto;
+    
 }
 .full-service .content-one p{
     font-size: 16px;
@@ -239,16 +240,15 @@ p{
 
 .sans{
     font-family : "Open Sans",sans-serif;
-    width: 450px;
 }
 .sans h2{
     font-family: 'Oswald', sans-serif;
-    font-size: 36px;
+    /* font-size: 36px; */
     font-weight:300;
 }
 .sans h4{
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 4vmin;
     font-weight:400;
 }
 
@@ -400,7 +400,6 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid red; */
     margin-inline: auto;
 }
 
@@ -450,23 +449,26 @@ p{
 /* ****************six-section******************* */
 
 .six-section{
-    width: 100%;
-    height: 800px;
+    height: fit-content;
     background:#555D66 ;
     text-align: center;
     padding-top: 60px;
+    padding-bottom: 50px;
 }
 
+.global-container{
+    width: 90%;
+    margin-inline: auto;
+}
 .global-container-desc{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    /* border: 1px solid red; */
     margin-inline: auto;
     padding-bottom: 40px;
     line-height: 1.6;
     color: #FFFFFF;
-    width: 500px;
 }
 .global-container-desc h2{
     font-family: 'Oswald', sans-serif;
@@ -476,6 +478,15 @@ p{
 .global-container-desc p{
     font-size: 16px;
     color: #FFFFFF;
+}
+.sec-6-wrapper{
+    width: 100%;
+    height: 500px;
+}
+.sec-6-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 /* ***************** seven section********************* */
@@ -641,10 +652,6 @@ footer a{
 /* ***********************media query**************************** */
 
 @media(max-width:1169px) {
-.twin-container {
-        width: 350px;
-    }
-
     .care-item-desc {
         width: 430px;
     }
@@ -655,17 +662,9 @@ footer a{
 
 }
 @media(max-width:1029px) {
-.twin-container {
-        width: 320px;
-    }
-        .twin-container-para {
-            width: 270px;
-            margin-inline: auto;
-        }
 
     .sans {
         font-family: "Open Sans", sans-serif;
-        width: 330px;
     }
 
     .care-item-desc {
@@ -681,30 +680,13 @@ footer a{
     width: 310px;
 }
 
-/* **********six-section************** */
-
-.wrapper {
-    width: 400px;
-    height: 500px;
-    margin-inline: auto;
-}
-
-.wrapper img {
-    width: 100%;
-    height: 100%;
-    margin-inline: auto;
-}
 }
 @media(max-width:992px){
-    .twin-container {
-            width: 250px;
-        }
 
     .six-container {
         width: 130px;
         height: 120px;
         text-align: center;
-        /* border: 1px solid; */
     }
 
         /* **********firth-section************** */
@@ -728,13 +710,9 @@ footer a{
 }
 
 @media(max-width:936px) {
-.twin-container {
-        width: 280px;
-    }
 
     .care-item-desc {
         width: 370px;
-        /* padding-top: 100px; */
     }
 
     .care-item {
@@ -743,20 +721,6 @@ footer a{
     }
 .care-item-container {
     width: 280px;
-}
-
-/* **********six-section************** */
-
-.wrapper {
-    width: 500px;
-    height: 500px;
-    margin-inline: auto;
-}
-
-.wrapper img {
-    width: 100%;
-    height: 100%;
-    margin-inline: auto;
 }
 
 .specialist-item {
@@ -772,21 +736,18 @@ footer a{
 
 .medicine-center .all-med-desc {
     width: 44%;
-    padding-top: 50%;
     padding-left: 40px;
 }
-.twin-container {
-    width: 240px;
-}
-.twin-container-para {
-    width: 250px;
-    margin-inline: auto;
-}
-.twin-container-para p{
-    width: 200px;
-    margin-inline: auto;
+
+.three-container-wrapper {
+    flex-direction: column;
 }
 
+.twin-container {
+    width: 100%;
+}
+
+/* section two */
 
 .photoss-icon {
     width: 80px;
@@ -802,7 +763,6 @@ footer a{
 
 .grid-item .sans {
     font-family: "Open Sans", sans-serif;
-    width: 250px;
 }
 
 .brain {
@@ -821,10 +781,10 @@ footer a{
 }
 
 .full-service .content-one {
-    margin-top: 400px;
     padding-bottom: 100px;
     width: 660px;
     margin-inline: auto;
+    /* border: 1px solid red; */
 }
 
 .full-service {
@@ -860,7 +820,7 @@ footer a{
     width: 410px;
 }
 
-/* *****************fourth section*************************** */
+/* *****************fourth section************************ */
 
 .careofheart-container {
     gap: 65px;
@@ -955,7 +915,6 @@ textarea {
 
     .medicine-center .all-med-desc {
         width: 90%;
-        padding-top: 90%;
         padding-left: 30px;
     }
 
@@ -968,32 +927,6 @@ textarea {
     }
 
     /* ******************after three containers****************** */
-
-    .three-container {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        left: 0;
-        bottom: -400px;
-        height: 0%;
-    }
-
-  .twin-container {
-    width: 370px;
-  }
-.twin-container-para {
-    width: 300px;
-    margin-inline: auto;
-    padding-bottom: 50px;
-}
-.twin-container-para p{
-    width: 300px;
-    margin-inline: auto;
-}
-
-    .full-service .content-one {
-        margin-top: 1150px;
-    }
 
     .grid-items {
         display: flex;
@@ -1010,6 +943,7 @@ textarea {
     .full-service .content-one {
         width: 335px;
         margin-inline: auto;
+        /* border: 1px solid red; */
     }
 
     .full-service .content-one h2 {
@@ -1054,7 +988,6 @@ textarea {
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* border: 1px solid red; */
         margin-inline: auto;
     }
     .our-department-desc p{
@@ -1114,25 +1047,11 @@ textarea {
 
     /* ********************section six************************ */
 
-    .global-container {
-        width: 300px;
-        margin-inline: auto;
-    }
-
-    .wrapper {
-        width: 300px;
-        height: 500px;
-    }
-
-    .wrapper img {
-        width: 100%;
-        height: 100%;
-
-    }
-
-.global-container-desc {
-    width: 310px;
+.sec-6-wrapper {
+    width: 100%;
+    height: 270px;
 }
+
 
     /* ***************** seven section********************* */
 
@@ -1204,24 +1123,17 @@ textarea {
 @media(max-width:375px) {
     .medicine-center .all-med-desc {
         width: 100%;
-        padding-top: 100%;
         padding-left: 20px;
     }
 
     /* ******************after three containers************ */
-
-.twin-container {
-    width: 330px;
-}
 
 .content-one p{
     width: 310px;
     margin-inline: auto;
 }
 
-.sans {
-    width: 310px;
-}
+
 .brain {
     top: -50px;
     left: 15px;
@@ -1266,25 +1178,14 @@ textarea {
 }
 
 @media(max-width:320px){
-.twin-container {
-        width: 300px;
-    }
-
 
 .content-one h2{
-    width: 310px;
+    width: 280px;
     margin-inline: auto;
 }
 .content-one p{
     width: 250px;
     margin-inline: auto;
-}
-
-.sans p{
-    width: 200px;
-}
-.sans h4{
-    width: 200px;
 }
 
 .brain {
@@ -1346,3 +1247,15 @@ textarea {
     width: 280px;
 }
 }
+
+#preloader{
+    background-color: #000 ;
+    background-image: url('/image/preloader.gif');
+    background-repeat: no-repeat;
+        background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
