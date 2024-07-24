@@ -190,7 +190,7 @@ p{
     text-align: center;
     justify-content: center;
     align-items: center;
-    width: 740px;
+    width: 50%;
     margin-inline: auto;
     
 }
@@ -281,11 +281,11 @@ p{
 
 }
 .our-department-desc{
-    width: 650px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid red; */
+    justify-content: center;
     margin-inline: auto;
 }
 .department{
@@ -381,67 +381,54 @@ p{
 
 /* **********firth-section************** */
 .firth-section{
-    background: #E0E5EB;
-    height: 800px;
-    position: relative;
+    padding-block: 100px;
+    background-color: #E0E5EB;
 }
 
-.we-care-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 18px;
-}
-
-.we-care-desc {
-    width: 510px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-inline: auto;
-}
-
-.care-item-container{
-    width: 370px;
-    height: 445px;
-    background: #FFFFFF;
-    position: relative;
-}
-.we-care-desc{
-    padding-block: 70px;
+.sec-5-desc{
+    padding-bottom: 50px;
     text-align: center;
 }
-.we-care-desc p{
+.sec-5-desc p {
     font-size: 16px;
 }
-.we-care-desc h2{
+
+.sec-5-desc h2 {
     font-family: 'Oswald', sans-serif;
-    font-size: 36px;
     font-weight: 400;
 }
-
-.care-item-container img {
+.we-care-container-wrapper{
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.care-item-container{
+width: 400px;
+height: fit-content;
+background-color: white;
+}
+.we-care-image{
     width: 100%;
-    height: 250px;
+    height: 230px;
+}
+.we-care-image img{
+    width: 100%;
+    height: 100%;
+}
+.we-care-desc{
+    padding: 30px;
+}
+.we-care-btn{
+    background-color: transparent;
+    padding: 0;
 }
 
-.child-desc{
-    margin-top: 20px;
-    padding-inline: 15px;
-    line-height: 1.6;
-    width: 300px;
-}
-
-.care-item-container button{
-    background: none;
-}
-
-.care-item-container button a{
+.we-care-btn a{
     color:#73A3DE ;
     font-size: 14px;
-    position: absolute;
-    left: 15px;
-    bottom: 3px;
+   
 }
 
 /* ****************six-section******************* */
@@ -672,9 +659,7 @@ footer a{
         width: 45%;
         height: 400px;
     }
-.care-item-container {
-    width: 310px;
-}
+
 
 }
 @media(max-width:992px){
@@ -686,23 +671,7 @@ footer a{
     }
 
         /* **********firth-section************** */
-        .care-item-container {
-            width: 235px;
-        }
-    
-        .we-care-desc {
-            width: 350px;
-            margin-inline: auto;
-        }
-    
-        .child-desc {
-            width: 230px;
-            margin-inline: auto;
-        }
-    
-        .care-item-container {
-            height: 470px;
-        }
+        
 }
 
 @media(max-width:936px) {
@@ -714,15 +683,15 @@ footer a{
     .care-item {
         width: 40%;
         height: 368px;
+        /* border: 1px solid red; */
     }
-.care-item-container {
-    width: 280px;
-}
 
+/* section seven */
 .specialist-item {
     width: 250px;
     height: 550px;
     position: relative;
+    /* border: 1px solid red; */
 }
 
 
@@ -752,12 +721,6 @@ footer a{
     margin-bottom: 30px;
 }
 
-.content-one {
-    width: 500px;
-    margin-inline: auto;
-    margin-left: 10px;
-}
-
 .grid-item .sans {
     font-family: "Open Sans", sans-serif;
 }
@@ -779,8 +742,9 @@ footer a{
 
 .full-service .content-one {
     padding-bottom: 100px;
-    width: 660px;
+    width: 90%;
     margin-inline: auto;
+    /* border: 1px solid red; */
 }
 
 .full-service {
@@ -790,18 +754,13 @@ footer a{
 /* ***********section three our-department********************** */
 
 .department {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    align-self: center;
-    margin-top: 120px;
-    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .six-container {
     width: 300px;
     height: 200px;
+    /* border: 1px solid red; */
 }
 
 .photoss-icon-brains p {
@@ -812,8 +771,8 @@ footer a{
     padding-bottom: 35px;
 }
 
-.our-department-desc p {
-    width: 410px;
+.our-department-desc {
+    width: 80%;
 }
 
 /* *****************fourth section************************ */
@@ -835,23 +794,15 @@ footer a{
 }
 
 /* **********firth-section************** */
-.care-item-container {
-    width: 235px;
-}
 
-.we-care-desc {
-    width: 350px;
-    margin-inline: auto;
-}
-
-.child-desc {
-    width: 230px;
-    margin-inline: auto;
+.we-care-container-wrapper {
+    flex-direction: column;
 }
 
 .care-item-container {
-    height: 470px;
+    width: 100%;
 }
+
 
 /* ***************** seven section********************* */
 
@@ -931,12 +882,6 @@ textarea {
         height: 1200px;
     }
 
-    .full-service .content-one {
-        width: 335px;
-        margin-inline: auto;
-    }
-
-    
 
     .brain {
         top: -50px;
@@ -962,25 +907,15 @@ textarea {
 
     /* ***********section three our-department***************** */
 
-    .department {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 100px;
-        justify-content: center;
-        gap: 20px;
-    }
-
-    .our-department-desc {
-        width: 300px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-inline: auto;
-    }
-    .our-department-desc p{
-        width: 280px;
-    }
+        .department {
+            flex-wrap: wrap;
+        }
+    
+        .six-container {
+            width: 300px;
+            height: 200px;
+            /* border: 1px solid red; */
+        }
 
     /* *****************fourth section*************************** */
 .careofheart-container {
@@ -1006,33 +941,14 @@ textarea {
     }
 
     /* **********firth-section************ */
-    .firth-section {
-        height: fit-content;
-        padding-bottom: 50px;
-    }
-
-        .we-care-container {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-            gap: 18px;
-        }
+    
 
     .we-care-desc {
         width: 280px;
         margin-inline: auto;
     }
 
-    .care-item-container {
-        width: 360px;
-    }
-
-    .child-desc {
-        width: 300px;
-        margin-left: 0px;
-    }
-
+    
     /* ********************section six************************ */
 
 .sec-6-wrapper {
@@ -1111,7 +1027,7 @@ textarea {
 
     /* ******************after three containers************ */
 .content-one p{
-    width: 310px;
+    /* width: 310px; */
     margin-inline: auto;
 }
 
@@ -1144,10 +1060,9 @@ textarea {
 }
 
 /* **********firth-section************ */
-.care-item-container {
-    width: 330px;
-}
 
+
+/*  */
 input {
     height: 45px;
     width: 300px;
@@ -1162,7 +1077,7 @@ textarea {
 @media(max-width:320px){
 
 .content-one h2{
-    width: 280px;
+    /* width: 280px; */
     margin-inline: auto;
 }
 .content-one p{
@@ -1199,9 +1114,7 @@ textarea {
 
 /* **********firth-section************ */
 
-.care-item-container {
-    width: 280px;
-}
+
 
   /* ***************** seven section********************* */
 
