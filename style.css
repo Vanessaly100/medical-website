@@ -675,7 +675,11 @@ footer a{
 }
 
 @media(max-width:936px) {
-
+    .medicine-center .all-med-desc {
+            width: 60%;
+            padding-left: 40px;
+            /* border: 1px solid red; */
+        }
     .care-item-desc {
         width: 370px;
     }
@@ -700,8 +704,9 @@ footer a{
 @media(max-width:850px) {
 
 .medicine-center .all-med-desc {
-    width: 60%;
+    width: 80%;
     padding-left: 40px;
+    /* border: 1px solid red; */
 }
 
 .three-container-wrapper {
