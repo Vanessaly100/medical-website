@@ -65,14 +65,12 @@ nav ul li a :hover{
     justify-content: center;
     flex-direction: column;
     width: 44%;
-    /* height: 50%; */
-    /* padding-top: 30%; */
     padding-left: 80px;
 }
 .medicine-center .all-med-desc h1{
     color: #3E4A59;
     font-family: 'Oswald', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 11vmin ;
 }
 .medicine-center .all-med-desc p{
@@ -223,8 +221,8 @@ p{
     width:100%;
 }
 .photos-icon{
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     color: #73A3DE;
 }
 
@@ -501,7 +499,6 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid red; */
     margin-inline: auto;
     padding-block: 60px;
     width: 500px;
@@ -577,7 +574,6 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid red; */
     margin-inline: auto;
     padding-block: 60px;
     color: #FFFFFF;
@@ -735,7 +731,7 @@ footer a{
 @media(max-width:850px) {
 
 .medicine-center .all-med-desc {
-    width: 44%;
+    width: 60%;
     padding-left: 40px;
 }
 
@@ -757,7 +753,8 @@ footer a{
 }
 
 .content-one {
-    width: 750px;
+    width: 500px;
+    margin-inline: auto;
     margin-left: 10px;
 }
 
@@ -784,7 +781,6 @@ footer a{
     padding-bottom: 100px;
     width: 660px;
     margin-inline: auto;
-    /* border: 1px solid red; */
 }
 
 .full-service {
@@ -908,7 +904,6 @@ textarea {
 }
 
 @media(max-width:525px) {
-
     nav ul li {
         display: none;
     }
@@ -920,10 +915,6 @@ textarea {
 
     .medicine-center .all-med-desc p {
         width: 63%;
-    }
-
-    .medicine-center .all-med-desc h1 {
-        font-size: 48px;
     }
 
     /* ******************after three containers****************** */
@@ -943,12 +934,9 @@ textarea {
     .full-service .content-one {
         width: 335px;
         margin-inline: auto;
-        /* border: 1px solid red; */
     }
 
-    .full-service .content-one h2 {
-        font-size: 24px;
-    }
+    
 
     .brain {
         top: -50px;
@@ -1094,12 +1082,7 @@ textarea {
         bottom: 0px;
     }
 
-
     /* ******************section eight*************************** */
-
-    .touch-desc h2 {
-        font-size: 24px;
-    }
 
     .touch-desc {
         width: 305px;
@@ -1127,7 +1110,6 @@ textarea {
     }
 
     /* ******************after three containers************ */
-
 .content-one p{
     width: 310px;
     margin-inline: auto;
